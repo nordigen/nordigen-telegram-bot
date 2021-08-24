@@ -1,17 +1,18 @@
-# Nordigen Telegram Bot
+# Nordigen Telegram bot
 
-Telegram bot that retrieves your balance amount from free [Nordigen](https://nordigen.com/en/) API. You can either get your balance using command `/balance` or by recording a voice message.
-
+Telegram bot that retrieves your bank account balance from your bank using Nordigen’s free account information API. You can get your bank account balance by using command `/balance` or by recording a voice message.
 
 ## Introduction
 
-This bot is meant for developers who want to experiment with Nordigen Open Banking API to add new every-day functionality to one's bank account.
+Nordigen Telegram bot is a hobby project built by Nordigen’s team to showcase the features of our API. This bot is meant for developers who want to experiment with open banking APIs and want to add more functionality to their bank accounts.
 
-To create and configure it one must go throught the following steps:
+To create and configure it, please follow the following steps:
 
 * Register on [ob.nordigen.com](https://ob.nordigen.com/) and connect your bank via API as detailed in our [Quickstart Guide](https://nordigen.com/en/account_information_documenation/integration/quickstart_guide_postman/). To save time, we recommend using our [swagger file](https://ob.nordigen.com/api/swagger.json) in Postman.
-* Create a new personal Telegram Bot by starting a chat with @BotFather on Telegram, clicking Start and choosing the bot's name and username. Once it is created, BotFather will provide you with a token that you will need in later steps
-* Install the bot's logic and configure it as described in the steps below.
+
+* Create a new personal Telegram Bot by starting a chat with `@BotFather` on Telegram, clicking Start and choosing the bot’s name and username. Once it is created, BotFather will provide you with a token that you will need in later steps
+
+* Install the bot’s logic and configure it as described in the steps below.
 
 ---
 ## Requirements
