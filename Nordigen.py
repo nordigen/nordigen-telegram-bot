@@ -26,8 +26,8 @@ class NordigenTelegramBot:
     def _start_command(self, update: Update, context: CallbackContext) -> None:
         update.message.reply_text(
             "Welcome To Nordigen Bot! 🚀"
-            "\nTo get started please insert your token and user id into .env file."
-            "\nGet token and user id form our portal ➡ https://ob.nordigen.com/tokens/"
+            "\nTo get started please insert your token and account id into .env file."
+            "\nGet token and account id from our portal ➡ https://ob.nordigen.com/tokens/"
         )
 
     def _balance_command(self, update: Update, context: CallbackContext) -> None:
